@@ -1,0 +1,630 @@
+<div class="fixed flex flex-0 items-center w-full h-24 px-4 md:px-6 z-49 opacity-50	 bg-card  print:hidden">
+    <!-- Navigation toggle button -->
+    <img
+    class=" w-96 py-12 px-8"
+    src="../../../../assets/images/logo/VSchool-logo1.png"
+    />
+    <!-- Components -->
+    <div class="flex items-center pl-2 ml-auto space-x-0.6 sm:space-x-2 font-bold">
+        <div >PROGRAM  | </div>
+        <div>FEATURE |</div>
+        <div>VIDEO |</div>
+        <div>ACHIEVEMENT |</div>
+        <div>TESTIMONIALS |</div>
+        <div>ACTIVITY |</div>
+        <div>FAQ |</div>
+        <div>CONTACT |</div>
+        <div>LOGIN </div>
+
+    </div>
+</div>
+<div class="flex flex-col bg-white">
+    <div class="mb-1 relative"> 
+        <img 
+        class=" w-full "
+        src="../../../../assets/images/logo/slider.jpg"
+        />
+        <div>
+            <img
+            class=" w-full absolute -bottom-0.5 z-25"
+            src="../../../../assets/images/logo/curve-shape.png"
+            />
+        </div>
+        <div class="absolute bottom-[4rem] right-[8rem]" >
+            <img class="w-60 h-60"
+            src="../../../../assets/images/logo/empowering.png"
+            />
+        </div>
+    </div>
+    <div class="sm:grid sm:grid-cols-11 bg-white">
+        <div class="sm:col-span-5 pt-12 pb-6  ">
+            <div class="sm:grid-cols-12 sm:grid sm:pt-12 sm:mt-5">
+                <div class="sm:col-span-1"></div>
+                <div class="sm:col-span-9 sm:grid sm:grid-cols-3 sm:mt-5">
+                    <div class="sm:col-span-1">
+                        <button [ngClass]="{'bg-green-500 text-white':isactive1, 'bg-gray-200': !isactive1}" (click)="changetab(1)" class="px-4 py-3 w-36 rounded-3xl font-bold">GOVERMENT</button>
+                    </div>
+                    <div class="sm:col-span-1">
+                        <button [ngClass]="{'bg-green-500 text-white':isactive2, 'bg-gray-200': !isactive2}" (click)="changetab(2)" class="px-4 py-3 w-36 rounded-3xl font-bold">UEC</button>
+                    </div>
+                    <div class="sm:col-span-1">
+                        <button [ngClass]="{'bg-green-500 text-white':isactive3, 'bg-gray-200': !isactive3}" (click)="changetab(3)" class="px-4 py-3 w-36 rounded-3xl font-bold">INTERNATIONAL</button>
+                    </div>
+                    <div class="font-bold text-3xl sm:col-span-3 text-green-500 my-5">
+                        VSchool Trend Learning Program
+                    </div>
+                    <div class="sm:col-span-3 mb-8">
+                        is Malaysia’s first online learning programme that offers a comprehensive syllabus starting from pre-school right up to Form 5.
+                    </div>
+                    <div class="sm:col-span-3 text-xl font-medium sm:mb-8">
+                        <div class="mb-3">Preschool</div>
+                        <div class="mb-3">Standard 1 - 3 (SK)</div>
+                        <div class="mb-3">Standard 1 - 3 (SJKC)</div>
+                        <div class="mb-3">Standard 4 - 6 (SK)</div>
+                        <div class="mb-3">Standard 4 - 6 (SJKC)</div>
+                        <div class="mb-3 text-green-500">Form 1 - 3 (SMK)</div>
+                        <div class="mb-3">Form 4 - 5 (SMK)</div>
+
+                    </div>
+                    <div class="sm:col-span-3">
+                        <button class="rounded-3xl font-bold text-white bg-green-500 px-6 bg-gradient-to-b
+                        bg-clip-padding shadow-xl bg-no-repeat from-green-400 to-green-600 py-3">FREE TRIAL</button>
+                    </div>
+                </div>
+                <div class="sm:col-span-2"></div>
+            </div>
+
+        </div>
+        <div class="sm:col-span-6   ">
+            <div 
+            class="h-2/5 rounded-tl-[7rem_6rem] w-full  bg-blend-multiply	bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/slider.jpg')] "
+            ></div>
+            <div class="flex flex-col flex-auto min-w-0 h-3/5">
+                <!-- Main -->
+                <div class="flex-auto p-6 sm:p-10 mb-12 bg-gradient-to-b from-green-400 to-green-500">
+                    <!-- CONTENT GOES HERE -->
+                        <div class="font-bold text-center text-xl mb-8">SUBJECTS</div>
+                        <div class="grid grid-cols-4">
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/chi.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Bahasa Cina
+                                </div>
+                            </div>
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/en.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Bahasa Inggeris
+                                </div>
+                            </div>
+                            <div class="rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/bm.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Bahasa Malaysia
+                                </div>
+                            </div>
+                            
+                           
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/mathematic.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Mathematics
+                                </div>
+                            </div>
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/science.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Science
+                                </div>
+                            </div>
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/history.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Sejarah
+                                </div>
+                            </div>
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/geography.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold">
+                                    Geography
+                                </div>
+                            </div>
+                            
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/technology.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold text-center">
+                                    Design & Technology
+                                </div>
+                            </div>
+                            <div class=" rounded-lg flex flex-col items-center pt-4 pb-4 px-2">
+                                <div>
+                                    <img class="w-8 h-8 m-auto justify-between rounded-full ring-8 ring-emerald-200 ring-bg-card mb-5"
+                                    src="assets/images/logo/asas-sains-komputer.png"
+                                    >
+                                </div>
+                                <div class="text-white font-bold text-center">
+                                    Asas Sains Komputer
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="sm:p-8 sm:grid sm:grid-cols-10 sm:gap-6">
+        <div class="sm:col-span-6">
+            <img class="p-4"
+            src="../../../../assets/images/banner/laptop-ipad.png">
+        </div>
+        <div class="sm:col-span-4 py-12">
+            <div class="h-1/5"></div>
+            <div class="font-bold xs:text-3xl sm:text-[2rem] text-left py-4 text-green-500">
+                <div>STUDY ANYTIME.</div>
+                <div>ANY WHERE</div>
+            </div>
+            <div class="break-words	font-medium w-3/5 mt-3 mb-8">
+                With VSchool Trend Learning Program, education no longer needs to be restricted by location and time.
+            </div>
+            <div class="">
+                <button class="rounded-3xl font-bold text-white bg-green-500 px-6 bg-gradient-to-b
+                bg-clip-padding shadow-xl bg-no-repeat from-green-400 to-green-600 py-3">FREE TRIAL</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sm:mt-24 sm:p-8">
+        <div class="sm:grid sm:grid-cols-4 sm:gap-12 sm:p-12 ">
+            <div class="font-bold xs:text-3xl sm:text-[2rem] text-black text-center sm:col-span-4 mb-6">UNIQUE FEATURES</div>
+            <div class="sm:col-span-4 sm:flex mb-6">
+                <div class="sm:w-1/5"></div>
+                <div class="font-medium text-black text-center mb-6 break-words  sm:w-3/5 text-center ">
+                    VSchool Trend Learning Program consists of numerous Pioneered Unique Features that not only will it make learning easier, it also makes the process fun and interesting.
+                </div>
+                <div class="sm:w-1/5"></div>
+            </div>
+            <div class="sm:col-span-1 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-teal-100 to-teal-400 rounded-br-[5rem] rounded-t-[3rem] ">
+                    <div>
+                        <img src="../../../../assets/images/logo/iThink.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="bg-white text-center py-6 w-full">
+                    iThink Concept
+                </div>  
+            </div>
+            <div class="sm:col-span-1 shadow-xl	w-full rounded-[3rem] ">
+                <div class=" bg-card bg-gradient-to-bl	from-orange-500 to-orange-600 rounded-br-[5rem] rounded-t-[3rem] h-1/2">
+                    <div>
+                        <img src="../../../../assets/images/logo/KBAT.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="bg-white text-center py-3 w-full">
+                    KBAT / HOTS
+                </div> 
+                <div class="bg-white text-center py-3">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                </div> 
+            </div>
+            <div class="sm:col-span-1 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-cyan-400 to-cyan-500 rounded-br-[5rem] rounded-t-[3rem] ">
+                    <div>
+                        <img src="../../../../assets/images/logo/detail2.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="bg-white text-center py-6 w-full">
+                    Dictionary (BM,BI,BC) with Examples
+                </div>  
+            </div>
+            <div class="sm:col-span-1 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] ">
+                    <div>
+                        <img src="../../../../assets/images/logo/detail1.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="bg-white text-center py-6 w-full">
+                    Detailed Report Card
+                </div>  
+            </div>
+            <div class="sm:col-span-4 text-center">
+                <button class="rounded-3xl font-bold text-white bg-green-500 px-8 bg-gradient-to-b
+                bg-clip-padding shadow-xl bg-no-repeat from-green-300 to-green-600 py-3">VIEW ALL</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/download.jfif')] sm:px-16 sm:pb-24 sm:mt-12 h-[90vh]">
+        <div class="h-[20%]">
+        </div>
+        <div class="h-[50%]  items-center">
+            <div
+                    class=" h-1/2  items-center sm:grid sm:grid-cols-10 xs:grid xs:grid-cols-10"
+                >   
+                    <div class="sm:col-span-2 xs:col-span-2"></div>
+                    <div class="main-img sm:col-span-6 xs:col-span-6">
+                        <div class="p-6">
+                            <img
+                                class="rounded-t-lg sm:w-full sm:h-1/2 xs:w-full xs:h-1/2"
+                                src="../../../../assets/images/banner/images.jfif"
+                            />
+                            <img
+                                class="rounded-t-lg h-24 w-24 sm:-my-[10rem] sm:mx-[10rem] xs:-my-[1rem] xs:mx-[1rem] absolute"
+                                src="../../../../assets/images/logo/play.png"
+                            />
+                            <div class="sm:p-6 xs:p-1 bg-white text-center">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <img
+                                class="rounded-t-lg sm:w-full sm:h-1/2 xs:w-full xs:h-1/2"
+                                src="../../../../assets/images/banner/images.jfif"
+                            />
+                            <img
+                                class="rounded-t-lg h-24 w-24 sm:-my-[10rem] sm:mx-[10rem] xs:-my-[1rem] xs:mx-[1rem] absolute"
+                                src="../../../../assets/images/logo/play.png"
+                            />
+                            <div class="sm:p-6 xs:p-1 bg-white text-center">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <img
+                                class="rounded-t-lg sm:w-full sm:h-1/2 xs:w-full xs:h-1/2"
+                                src="../../../../assets/images/banner/images.jfif"
+                            />
+                            <img
+                                class="rounded-t-lg h-24 w-24 sm:-my-[10rem] sm:mx-[10rem] xs:-my-[1rem] xs:mx-[1rem] absolute"
+                                src="../../../../assets/images/logo/play.png"
+                            />
+                            <div class="sm:p-6 xs:p-1 bg-white text-center">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                            </div>
+                        </div>
+                    <!-- <img (click)="onSlide()" class="rounded-t-lg w-full max-w-screen-xl bg-green-500 ml-5" src="https://material.angular.io/assets/img/examples/shiba2.jpg" /> -->
+                    </div>
+                </div>
+                <div class="sm:col-span-2">
+                    
+                </div>
+
+        <div class="h-[30%]"></div>
+        </div>
+    </div>
+    <div class=" w-full h-screen bg-blend-multiply sm:pb-24 sm:mb-12	bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/slider.jpg')] ">
+        <div class="h-[50%]">
+
+        </div>
+        <div class="h-[30%] sm:px-20 sm:flex mb-4">
+            <img src="../../../../assets/images/banner/reward.png" class="w-48 h-48 p-4 bg-white h-full rounded-bl-[2rem] rounded-tr-[2rem]">
+            <div class="h-100%">
+                <div class="h-[80%]" ></div>
+                <img class="h-[20%]" src="../../../../assets/images/logo/video-icon.png" class="w-12 h-12 ml-3 ">
+            </div>
+        </div>
+        <div class="h-[20%] sm:px-20">
+            <div>
+                2017 - Award Name
+            </div>
+            <div class="w-[60%] text-left">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </div>
+        </div>
+    </div>
+    <div class="sm:grid sm:grid-cols-3 sm:gap-2 px-6 xs:pb-5 sm:pb-8">
+        <div class="sm:col-span-3 p-2 text-center font-bold text-[2rem] mb-4">
+            TESTIMONIALS
+        </div>
+        <div class="sm:col-span-1 mb-6 mx-6 text-center sm:h-[60vh] shadow-xl rounded-3xl">
+            <div class="sm:h-4/5 bg-gradient-to-tr text-left from-cyan-300 to-cyan-400 rounded-t-3xl rounded-br-[3rem] break-words sm:p-6">
+                VSchool program saves my money and time. At the same time also helped my daughter to score excellent result. In her last exam, she managed to obtain second place in the class, and also improved from Class C TO Class B. I am very thankful to VSchool Trend Learning Program.
+            </div>
+            <div class="sm:h-[20%] bg-white rounded-b-3xl sm:flex sm:justify-between items-center ">
+                <div class="flex">
+                    <div>
+                        <img src="../../../../assets/images/avatars/female-03.jpg" class="rounded-full p-4 w-24 h-24">
+                    </div>
+                    <div class="items-center pt-6">
+                        <div class="font-bold">Angline Low</div>
+                        <div>Teacher, Penang</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../../../assets/images/logo/video-icon.png" class="rounded-full p-4 w-28 h-28">
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 mx-6 text-center sm:h-[60vh] shadow-xl rounded-3xl">
+            <div class="sm:h-4/5 bg-gradient-to-tr text-left from-cyan-400 to-yellow-500	 rounded-t-3xl rounded-br-[3rem] break-words sm:p-6">
+                Second, I want to talk with you about the teachers in my school, the APU School. The teachers here are very friendly. Although sometimes they are strict but it only happens when we do something wrong, but I still don’t hate them because I know that they do that because they want us to be a good citizen. In class time, teachers always give us the opportunities to do the exercises in groups and make every students have chance to tell what they want to say or to do. Teachers always pay some time to listen to students’ thinking. After that, they will change to the way that suitable for students
+            </div>
+            <div class="sm:h-[20%] bg-white rounded-b-3xl sm:flex sm:justify-between items-center ">
+                <div class="flex">
+                    <div>
+                        <img src="../../../../assets/images/avatars/female-02.jpg" class="rounded-full p-4 w-24 h-24">
+                    </div>
+                    <div class="items-center pt-6">
+                        <div class="font-bold">Jessica Choong Xin Hui</div>
+                        <div>Standard 5, Negeri Sembilan</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../../../assets/images/logo/video-icon.png" class="rounded-full p-4 w-28 h-28">
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 mx-6 text-center sm:h-[60vh] shadow-xl rounded-3xl">
+            <div class="sm:h-4/5 bg-gradient-to-tr text-left from-yellow-500 to-emerald-200 rounded-t-3xl rounded-br-[3rem] break-words sm:p-6">
+                Third, I want to talk about the School Activities. On some special days, such as Christmas, Lunar Tet or Thanksgiving, my school always celebrates and organizes parties for students. It is really good for us to attend the parties because the food is really good and the activities in the parties are very interesting. Besides it, joining the parties makes us know about the USA culture and festival like Thanksgiving or Christmas.
+            </div>
+            <div class="sm:h-[20%] bg-white rounded-b-3xl sm:flex sm:justify-between items-center ">
+                <div class="flex">
+                    <div>
+                        <img src="../../../../assets/images/avatars/female-03.jpg" class="rounded-full p-4 w-24 h-24">
+                    </div>
+                    <div class="items-center pt-6">
+                        <div class="font-bold">Angline Low</div>
+                        <div>Teacher, Penang</div>
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-3 text-center">
+            <button class="rounded-3xl font-bold text-white bg-green-500 px-8 bg-gradient-to-b
+            bg-clip-padding shadow-xl bg-no-repeat from-green-300 to-green-600 py-3">VIEW ALL</button>
+        </div>
+    </div>
+    <div class="sm:grid sm:grid-cols-3 sm:gap-2 px-6 xs:pb-5 sm:pb-12 bg-gradient-to-b from-white via-white to-green-300">
+        <div class="sm:col-span-3 p-2 text-center font-bold text-[2rem] mb-2">
+            GALLERY
+        </div>
+        <div class="sm:col-span-1 mb-6 pb-4 mx-6 text-center sm:h-[45vh] rounded-lg bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/images.jfif')]">
+            <div class="h-[80%]"></div>
+            <div class="h-[20%] text-left sm:px-6 text-white ">
+                <div>2021-3-21</div>
+                <div class="max-w-[70%]">
+                    Lorem Ipsum is simply dummy text of typesetting industry
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 pb-4 mx-6 text-center sm:h-[45vh] rounded-lg bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/images.jfif')]">
+            <div class="h-[80%]"></div>
+            <div class="h-[20%] text-left sm:px-6 text-white ">
+                <div>2021-3-21</div>
+                <div class="max-w-[70%]">
+                    Lorem Ipsum is simply dummy text of typesetting industry
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 pb-4 mx-6 text-center sm:h-[45vh] rounded-lg bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/images.jfif')]">
+            <div class="h-[80%]"></div>
+            <div class="h-[20%] text-left sm:px-6 text-white ">
+                <div>2021-3-21</div>
+                <div class="max-w-[70%]">
+                    Lorem Ipsum is simply dummy text of typesetting industry
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 pb-4 mx-6 text-center sm:h-[45vh] rounded-lg bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/images.jfif')]">
+            <div class="h-[80%]"></div>
+            <div class="h-[20%] text-left sm:px-6 text-white ">
+                <div>2021-3-21</div>
+                <div class="max-w-[70%]">
+                    Lorem Ipsum is simply dummy text of typesetting industry
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 pb-4 mx-6 text-center sm:h-[45vh] rounded-lg bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/images.jfif')]">
+            <div class="h-[80%]"></div>
+            <div class="h-[20%] text-left sm:px-6 text-white ">
+                <div>2021-3-21</div>
+                <div class="max-w-[70%]">
+                    Lorem Ipsum is simply dummy text of typesetting industry
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 mb-6 pb-4 mx-6 text-center sm:h-[45vh] rounded-lg bg-center bg-no-repeat bg-center bg-[length:100%_100%] bg-[url('styles/images.jfif')]">
+            <div class="h-[80%]"></div>
+            <div class="h-[20%] text-left sm:px-6 text-white ">
+                <div>2021-3-21</div>
+                <div class="max-w-[70%]">
+                    Lorem Ipsum is simply dummy text of typesetting industry
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-3 text-center">
+            <button class="rounded-3xl font-bold text-white bg-green-500 px-12 bg-gradient-to-b
+            bg-clip-padding shadow-xl bg-no-repeat from-green-300 to-green-400 py-3">VIEW ALL</button>
+        </div>
+    </div>
+    <div class="sm:grid sm:grid-cols-2 sm:h-[95vh] ">
+        <div class="sm:col-span-1 h-full sm:p-16">
+            <div class="font-bold text-[2rem] mb-4">
+                CONTACT US
+            </div>
+            <div class="sm:grid sm:grid-cols-2 sm:gap-6">
+                <div class="sm:col-span-1 h-full">
+                    <div class="mb-6 h-[30%]">
+                        <div class="text-green-500 font-bold">
+                            Company
+                        </div>
+                        <div class="font-bold">
+                            VKids Trend Sdn. Bhd.
+                        </div>
+                        <div>
+                            (1234875-M) | (AJL 932213)
+                        </div>
+                    </div>
+                    <div class="mb-6  h-[40%]">
+                        <div class="text-green-500 font-bold">
+                            Address
+                        </div>
+                        <div class="font-bold">
+                            Headquarters
+                        </div>
+                        <div class="break-words w-[80%]" >
+                            NO. 25A, Jalan Kenari 2, Bandar Puchong Jaya, 47100 Puchong, Selangor.
+                        </div>
+                        <div class="font-bold">
+                            Penang
+                        </div>
+                        <div class="break-words w-[80%]" >
+                            72-3-59, Arena Curve, Jalan Mahsuri, 11950 Bayan Lepas, Penang.
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:col-span-1">
+                    <div class="mb-6 h-[30%]">
+                        <div class="text-green-500 font-bold">
+                            Email
+                        </div>
+                        <div>
+                            support@vkidstrendsb.com
+                        </div>
+                    </div>
+                    <div class="mb-6 h-[40%]">
+                        <div class="text-green-500 font-bold">
+                            Phone
+                        </div>
+                        <div >
+                            <div class="flex h-8 items-center">
+                                <img src="../../../../assets/images/logo/mobile.png" class="w-6 h-8 p-1">
+                                <div class="font-bold">General Line:</div>
+                                <div>+6 010 - 277 5678</div>
+                            </div>
+                            <div class="flex h-8 items-center">
+                                <img src="../../../../assets/images/logo/whatsapp.png" class="w-6 h-8 p-1">
+                                <div class="font-bold">WhatsApp:</div>
+                                <div>+6 010 - 651 0906</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mr-4 my-4 flex items-center sm:col-span-2">
+                    <div>
+                        <img src="../../../../assets/images/logo/facebook.png" class="w-8 h-8 mr-2 ">
+                    </div>
+                    <div>
+                        <img src="../../../../assets/images/logo/youtube.png" class="w-8 h-8 mr-2">
+                    </div>
+                    <div>
+                        VSchool Trend
+                    </div>
+                </div>
+                <div class="sm:col-span-2">
+                    Privacy Policy | Disclaimer | Terms of use | Social Media Policy
+                </div>
+                <div class="mt-2 sm:col-span-2">
+                    © 2021 VSCHOOL TREND. All rights reserved.
+                </div>
+            </div>
+        </div>
+        <div class="sm:col-span-1 h-full sm:px-12 pt-12 pb-6 bg-green-500">
+            <div class="font-bold text-[2rem] px-4 mb-4">
+                GET IN TOUCH
+            </div>
+            <div class="break-words px-4">
+                Hi! Our team is here to provide you with more information and answer any questions you may have. Fill out the form and we’ll be in touch as soon as possible. Please feel free to send us an email or even give us a call at 010-2775678.
+            </div>
+            <div class="mt-6 sm:mr-12">
+                <div class="mb-4">
+                    <div class="px-6 font-bold">
+                        Name
+                    </div>
+                    <div>
+                        <mat-form-field
+                        class="fuse-mat-no-subscript w-full sm:w-full mt-4 sm:mt-0 sm:ml-4 "
+                        [floatLabel]="'always'">
+                            <input matInput type="text" [(ngModel)]="firstName" 
+                                placeholder="First Name" 
+                                >
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="px-6 font-bold">
+                        Phone
+                    </div>
+                    <div>
+                        <mat-form-field
+                        class="fuse-mat-no-subscript w-full sm:w-full mt-4 sm:mt-0 sm:ml-4 "
+                        [floatLabel]="'always'">
+                            <input matInput type="text" [(ngModel)]="phone" 
+                                placeholder="Eg 0122673344" 
+                                >
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="px-6 font-bold">
+                        Email
+                    </div>
+                    <div>
+                        <mat-form-field
+                        class="fuse-mat-no-subscript w-full sm:w-full mt-4 sm:mt-0 sm:ml-4 "
+                        [floatLabel]="'always'">
+                            <input matInput type="text" [(ngModel)]="email" 
+                                placeholder="xxx@gmail.com" 
+                                >
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="px-6 font-bold">
+                        Message
+                    </div>
+                    <div>
+                        <mat-form-field
+                        class="fuse-mat-no-subscript w-full sm:w-full mt-4 sm:mt-0 sm:ml-4 "
+                        [floatLabel]="'always'">
+                            <textarea
+                                class="min-h-5 my-0 resize-none"
+                                style="margin: 11px 0 !important; padding: 0 !important;"
+                                [rows]="4" placeholder="Type Here" [(ngModel)]="message"
+                                matInput
+                                ></textarea>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="rounded-3xl font-bold mt-3 text-white bg-black px-12 shadow-xl bg-no-repeat py-3">VIEW ALL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
