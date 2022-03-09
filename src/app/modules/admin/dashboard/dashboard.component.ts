@@ -160,5 +160,11 @@ export class DashboardComponent implements OnInit, OnDestroy
             this.isactive2 = false;
         }
     }
+
+    goto(value: any){
+        if(value === 'feature'){
+            this._router.navigate([`dashboard/feature`]);
+        }
+    }
     
 }

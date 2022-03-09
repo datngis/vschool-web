@@ -23,18 +23,23 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
+import { FeatureComponent } from './features/feature.component';
 import * as $ from 'jquery';
 
 const dashboardRoutes: Route[] = [
     {
         path     : '',
         component: DashboardComponent,
+    },
+    {
+        path     : 'feature',
+        component: FeatureComponent,
     }
 ];
 
 @NgModule({
     declarations: [
-        DashboardComponent,
+        DashboardComponent, FeatureComponent
     ],
     imports     : [
         RouterModule.forChild(dashboardRoutes),
