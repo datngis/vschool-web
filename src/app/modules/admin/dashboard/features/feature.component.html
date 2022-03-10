@@ -1,1 +1,547 @@
-<div>hello</div>
+<div class="bg-white sm:p-12 sm:grid sm:grid-cols-10 sm:gap-6 flex-0">
+    <div class="sm:col-span-3 ">
+        <div class=" bg-green-500 sm:p-4  rounded-b-[3rem] rounded-tr-[3rem] ">
+            <div class="sm:grid-cols-10 sm:grid items-center h-[25%]">
+                <div class="sm:col-span-2"> 
+                    <img src="../../../../../assets/images/logo/close-btn.png" >
+                </div>
+                <div class="text-white sm:col-span-6 sm:pb-4"> Back to Home</div>
+            </div>
+            <div class="sm:flex  h-[45%]">
+                <div class="sm:w-[20%]"></div>
+                <div class="sm:w-[60%]">
+                    <img src="../../../../assets/images/logo/VSchool-logo2.png" class="h-full">
+                </div>
+                <div class="sm:w-[20%]"></div>
+            </div>
+            <div class="text-white font-bold text-[2rem] sm:mt-3 sm:mb-12 text-center h-[30%]">UNIQUE FEATURES</div>
+        </div>
+    </div>
+    <div class="sm:col-span-7">
+        <div class="sm:grid sm:grid-cols-6 sm:gap-6 pt-4">
+            <div class="sm:col-span-6 flex justify-center gap-6">
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive1, 'bg-gray-200': !isactive1}" (click)="changetab(1)" class="px-4 py-3 w-36 rounded-3xl font-bold">GOVERMENT</button>
+                </div>
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive2, 'bg-gray-200': !isactive2}" (click)="changetab(2)" class="px-4 py-3 w-36 rounded-3xl font-bold">UEC</button>
+                </div>
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive3, 'bg-gray-200': !isactive3}" (click)="changetab(3)" class="px-4 py-3 w-36 rounded-3xl font-bold">INTERNATIONAL</button>
+                </div>
+            </div>
+            <div class="col-span-6 text-2xl font-bold items-center text-center sm:mx-4 sm:my-8 xs:my-3">
+                Subject To Different School Levels And Subjects
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-teal-100 to-teal-400 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/iThink.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-teal-400 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6 text-bold">
+                                iThink Concept
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem] ">
+                <div class=" bg-card bg-gradient-to-bl	from-orange-500 to-orange-600 rounded-br-[5rem] rounded-t-[3rem] h-1/2">
+                    <div>
+                        <img src="../../../../assets/images/logo/KBAT.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="bg-white text-center rounded-[3rem] w-full h-1/2">
+                    <div class="h-1/4"></div>
+                    <div class="text-center py-3 h-1/4">
+                        KBAT / HOTS
+                    </div> 
+                    <div class="text-center py-3 h-1/2">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    </div>
+                </div> 
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-cyan-400 to-cyan-500 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/detail2.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-cyan-500 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full ">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6 text-bold">
+                                Dictionary (BM,BI,BC) with Examples
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-amber-400 to-amber-500 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/StudentRewards.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-400 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6 text-bold">
+                                Student Rewards Campaign
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-cyan-500 to-cyan-400 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Top100Student.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-cyan-500 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6 text-bold">
+                                Top 100 Students Ranking
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-red-500 to-pink-400 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/StudyHours.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-red-500 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6 text-bold">
+                                Accumulated Study Hours And Scores
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-orange-600 to-orange-500 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/detail1.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-orange-600 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Detailed Report Card
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-green-400 to-green-500 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/InstantMarking.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-green-400 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Instant Marking with Motivational Words
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-teal-500 to-green-500 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/ExamEvaluation.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-teal-500 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Exam Evaluation
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-amber-300 via-green-400 to-teal-400 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Timer.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Examination Countdown Timer
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-emerald-400 to-teal-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/MarkingSystem.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-emerald-400 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Intelligent Marking System
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-purple-800 to-orange-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Attractivenotes.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-purple-800 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Attractive Notes
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-teal-300 to-teal-200 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Downloadnotes.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-teal-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Online/ Offline Notes With Download Function
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-orange-500 to-orange-600 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/VideoLearning.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] orange-500 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Video Learning
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-cyan-400 to-cyan-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/TeacherTeaching.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-cyan-400 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Teacher Teaching Video
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/ScienceExperiment.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Science Experiment Videos
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-tr	from-cyan-300 to-cyan-400 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/detail2.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-cyan-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Picture Dictionary Learning
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/VideoFlashCard.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Video Flash Cards
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/StoryTelling.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Storytelling
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Phonics.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Phonics, Suku Kata, 词汇
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/AnimatedExercises.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Animated Exercises
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/VariousExercisesFormats.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Various Exercise Formats
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Subjectiveexercises.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Subjective Exercises
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Media.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Media Exercises
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Audio.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Audio Exercises
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Comprehensiveexercises.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Comprehensive Exercises With Presentation
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/EasyNotes.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Essay Notes and Exercises
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/MathExercises.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Math Exercises with Solution Steps
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Parentacc.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Parent’s Account
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="sm:col-span-2 shadow-xl	w-full rounded-[3rem]">
+                <div class=" bg-card bg-gradient-to-bl	from-amber-400 to-amber-300 rounded-br-[5rem] rounded-t-[3rem] h-[70%]">
+                    <div>
+                        <img src="../../../../assets/images/logo/Parentingtips.png" class=" ring-white sm:px-20 py-12 ">
+                    </div>
+                </div>
+                <div class="h-[30%] bg-amber-300 rounded-b-[3rem] rounded-tr-[3rem]">
+                    <div class=" rounded-tl-[3rem] h-full ">
+                        <div class="bg-white text-center py-6 w-full rounded-[2.5rem] h-full">
+                            <div class="h-1/6"></div>
+                            <div class="h-5/6">
+                                Parenting Tips
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
