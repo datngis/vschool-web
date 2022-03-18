@@ -25,6 +25,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { FeatureComponent } from './features/feature.component';
 import * as $ from 'jquery';
+import { TestimonialComponent } from './testimonials/testimonial.component';
 
 const dashboardRoutes: Route[] = [
     {
@@ -34,12 +35,16 @@ const dashboardRoutes: Route[] = [
     {
         path     : 'feature',
         component: FeatureComponent,
-    }
+    },
+    {
+        path     : 'testimonial',
+        component: TestimonialComponent,
+    },
 ];
 
 @NgModule({
     declarations: [
-        DashboardComponent, FeatureComponent
+        DashboardComponent, FeatureComponent, TestimonialComponent
     ],
     imports     : [
         RouterModule.forChild(dashboardRoutes),

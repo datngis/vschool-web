@@ -1,0 +1,82 @@
+<div class="bg-white sm:p-12 sm:grid sm:grid-cols-10 sm:gap-6 flex-0">
+    <div class="sm:col-span-3 ">
+        <div class=" bg-green-500 sm:p-4  rounded-b-[3rem] rounded-tr-[3rem] ">
+            <div class="sm:grid-cols-10 sm:grid items-center h-[25%] flex">
+                <div class="sm:col-span-2 sm:w-full sm:h-full w-6 h-16"> 
+                    <img src="../../../../../assets/images/logo/close-btn.png" >
+                </div>
+                <div class="text-white sm:col-span-6 sm:pb-4"> Back to Home</div>
+            </div>
+            <div class="sm:flex  h-[45%]">
+                <div class="sm:w-[20%]"></div>
+                <div class="sm:w-[60%]">
+                    <img src="../../../../assets/images/logo/VSchool-logo2.png" class="h-full">
+                </div>
+                <div class="sm:w-[20%]"></div>
+            </div>
+            <div class="text-white font-bold text-[2rem] sm:mt-3 sm:mb-12 text-center h-[30%]">TESTIMONIALS</div>
+            
+        </div>
+        <div class="sm:mt-8 text-center">
+            <button class="rounded-3xl font-bold text-white bg-green-500 px-8 bg-gradient-to-b
+            bg-clip-padding shadow-xl bg-no-repeat from-green-300 to-green-600 py-3"
+            >FREE TRIALS</button>
+        </div>
+    </div>
+    <div class="sm:col-span-7">
+        <div class="sm:grid sm:grid-cols-6 sm:gap-6 pt-4">
+            <div class="sm:col-span-6 sm:flex sm:justify-center gap-6">
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive1, 'bg-gray-200': !isactive1}" (click)="changetab(1)" class="px-4 py-3 w-36 rounded-3xl font-bold">ALL</button>
+                </div>
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive2, 'bg-gray-200': !isactive2}" (click)="changetab(2)" class="px-4 py-3 w-36 rounded-3xl font-bold">TEACHERS</button>
+                </div>
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive3, 'bg-gray-200': !isactive3}" (click)="changetab(3)" class="px-4 py-3 w-36 rounded-3xl font-bold">PARENTS</button>
+                </div>
+                <div class="">
+                    <button [ngClass]="{'bg-green-500 text-white':isactive4, 'bg-gray-200': !isactive4}" (click)="changetab(4)" class="px-4 py-3 w-36 rounded-3xl font-bold">STUDENTS</button>
+                </div>
+            </div>
+            <div class="sm:col-span-3 mb-6 mx-6 text-center sm:h-[60vh] shadow-xl rounded-3xl">
+                <div class="sm:h-4/5 bg-gradient-to-tr text-left from-cyan-400 to-yellow-500	 rounded-t-3xl rounded-br-[3rem] break-words sm:p-6">
+                    Second, I want to talk with you about the teachers in my school, the APU School. The teachers here are very friendly. Although sometimes they are strict but it only happens when we do something wrong, but I still don’t hate them because I know that they do that because they want us to be a good citizen. In class time, teachers always give us the opportunities to do the exercises in groups and make every students have chance to tell what they want to say or to do. Teachers always pay some time to listen to students’ thinking. After that, they will change to the way that suitable for students
+                </div>
+                <div class="sm:h-[20%] bg-white rounded-b-3xl sm:flex sm:justify-between items-center ">
+                    <div class="flex">
+                        <div>
+                            <img src="../../../../assets/images/avatars/female-02.jpg" class="rounded-full p-4 w-24 h-24">
+                        </div>
+                        <div class="items-center pt-6">
+                            <div class="font-bold">Jessica Choong Xin Hui</div>
+                            <div>Standard 5, Negeri Sembilan</div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../../../../assets/images/logo/video-icon.png" class="rounded-full p-4 w-28 h-28">
+                    </div>
+                </div>
+            </div>
+            <div class="sm:col-span-3 mb-6 mx-6 text-center sm:h-[60vh] shadow-xl rounded-3xl">
+                <div class="sm:h-4/5 bg-gradient-to-tr text-left from-yellow-500 to-emerald-200 rounded-t-3xl rounded-br-[3rem] break-words sm:p-6">
+                    Third, I want to talk about the School Activities. On some special days, such as Christmas, Lunar Tet or Thanksgiving, my school always celebrates and organizes parties for students. It is really good for us to attend the parties because the food is really good and the activities in the parties are very interesting. Besides it, joining the parties makes us know about the USA culture and festival like Thanksgiving or Christmas.
+                </div>
+                <div class="sm:h-[20%] bg-white rounded-b-3xl sm:flex sm:justify-between items-center ">
+                    <div class="flex">
+                        <div>
+                            <img src="../../../../assets/images/avatars/female-03.jpg" class="rounded-full p-4 w-24 h-24">
+                        </div>
+                        <div class="items-center pt-6">
+                            <div class="font-bold">Angline Low</div>
+                            <div>Teacher, Penang</div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

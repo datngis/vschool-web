@@ -162,8 +162,12 @@ export class DashboardComponent implements OnInit, OnDestroy
     }
 
     goto(value: any){
-        if(value === 'feature'){
+        if(value === 'feature')
+        {
             this._router.navigate([`dashboard/feature`]);
+        } else if(value === 'testimonial') 
+        {
+            this._router.navigate([`dashboard/testimonial`]);
         }
     }
     
